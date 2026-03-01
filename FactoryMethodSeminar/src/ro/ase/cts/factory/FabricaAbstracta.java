@@ -1,7 +1,0 @@
-package ro.ase.cts.factory;
-
-import ro.ase.cts.dispozitive.Dispozitiv;
-
-public interface FabricaAbstracta {
-    public Dispozitiv creareDispozitiv(int nivelBaterie);
-}
