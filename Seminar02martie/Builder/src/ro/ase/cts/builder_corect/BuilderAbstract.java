@@ -1,9 +1,9 @@
-package ro.ase.cts.clase.builder;
+package ro.ase.cts.builder_corect;
 
-import ro.ase.cts.clase.Rezervare;
+
 
 public interface BuilderAbstract {
-    Rezervare build();
+    RezervareFinal build();
 
     BuilderAbstract setGenMuzical(String genMuzical);
     BuilderAbstract setNrPersoane(int nrPersoane);

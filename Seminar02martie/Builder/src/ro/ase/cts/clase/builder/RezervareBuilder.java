@@ -9,23 +9,23 @@ public class RezervareBuilder implements BuilderAbstract{
         rezervare=new Rezervare();
     }
 
-    public RezervareBuilder setGenMuzical(String genMuzical){
+    public BuilderAbstract setGenMuzical(String genMuzical){
         rezervare.setGenMuzical(genMuzical);
         return this;
     }
-    public RezervareBuilder setNrPersoane(int nrPersoane){
+    public BuilderAbstract setNrPersoane(int nrPersoane){
         rezervare.setNrPersoane(nrPersoane);
         return this;
     }
-    public RezervareBuilder setCuloarefataMasa(String culoarefataMasa){
-        rezervare.setCuloareFatDeMasa(culoarefataMasa);
+    public BuilderAbstract setCuloareFataMasa(String culoareFataMasa){
+        rezervare.setCuloareFatDeMasa(culoareFataMasa);
         return this;
     }
-    public RezervareBuilder setLaGeam(boolean laGeam){
+    public BuilderAbstract setLaGeam(boolean laGeam){
         rezervare.setLaGeam(laGeam);
         return this;
     }
-    public RezervareBuilder setScaunErgonomic(boolean scaunErgonomic){
+    public BuilderAbstract setScaunErgonomic(boolean scaunErgonomic){
         rezervare.setScaunErgonomic(scaunErgonomic);
         return this;
     }
@@ -35,6 +35,6 @@ public class RezervareBuilder implements BuilderAbstract{
 
     @Override
     public Rezervare build() {
-        return null;
+        return rezervare;
     }
 }
