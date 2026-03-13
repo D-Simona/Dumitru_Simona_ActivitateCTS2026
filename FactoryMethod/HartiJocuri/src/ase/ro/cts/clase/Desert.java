@@ -1,13 +1,13 @@
-package ro.ase.cts.clase;
+package ase.ro.cts.clase;
 
-public class Ocean extends Harta{
-    public Ocean(String monstru) {
+public class Desert extends Harta{
+    public Desert(String monstru) {
         super(monstru);
     }
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Ocean{");
+        final StringBuilder sb = new StringBuilder("Desert{");
         sb.append("monstru='").append(super.monstru).append('\'');
         sb.append('}');
         return sb.toString();

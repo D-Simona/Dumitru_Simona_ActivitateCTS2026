@@ -1,7 +1,7 @@
-package ro.ase.cts.factory;
+package ase.ro.cts.factory;
 
-import ro.ase.cts.clase.Desert;
-import ro.ase.cts.clase.Harta;
+import ase.ro.cts.clase.Desert;
+import ase.ro.cts.clase.Harta;
 
 public class DesertFactory implements FabricaAbstracta{
     @Override

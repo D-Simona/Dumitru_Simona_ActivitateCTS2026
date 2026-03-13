@@ -1,6 +1,6 @@
-package ro.ase.cts.factory;
+package ase.ro.cts.factory;
 
-import ro.ase.cts.clase.Harta;
+import ase.ro.cts.clase.Harta;
 
 public interface FabricaAbstracta {
     public Harta creareHarta (String monstru);

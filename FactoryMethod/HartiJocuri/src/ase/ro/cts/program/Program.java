@@ -1,8 +1,8 @@
-package ro.ase.cts.program;
+package ase.ro.cts.program;
 
-import ro.ase.cts.clase.Harta;
-import ro.ase.cts.factory.FabricaAbstracta;
-import ro.ase.cts.factory.OceanFactory;
+import ase.ro.cts.clase.Harta;
+import ase.ro.cts.factory.FabricaAbstracta;
+import ase.ro.cts.factory.OceanFactory;
 
 public class Program {
     private static void printareHarti (FabricaAbstracta fabrica, String monstru) {

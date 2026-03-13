@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package ase.ro.cts.clase;
 
 public abstract class Harta {
     protected String monstru;

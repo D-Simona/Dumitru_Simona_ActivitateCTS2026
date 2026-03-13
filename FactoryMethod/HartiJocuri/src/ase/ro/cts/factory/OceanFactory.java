@@ -1,7 +1,7 @@
-package ro.ase.cts.factory;
+package ase.ro.cts.factory;
 
-import ro.ase.cts.clase.Harta;
-import ro.ase.cts.clase.Ocean;
+import ase.ro.cts.clase.Harta;
+import ase.ro.cts.clase.Ocean;
 
 public class OceanFactory implements FabricaAbstracta{
     @Override
