@@ -35,7 +35,6 @@ public class Sticker implements StickerPrototip {
         }else {
             this.culoare="alb";
         }
-
     }
 
     private Sticker()
