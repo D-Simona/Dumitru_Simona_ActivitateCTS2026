@@ -1,6 +1,6 @@
 package ro.ase.cts.abonamente;
 
-public class Abonament {
+public abstract class Abonament {
    protected String denumire;
 
     public Abonament(String denumire) {
