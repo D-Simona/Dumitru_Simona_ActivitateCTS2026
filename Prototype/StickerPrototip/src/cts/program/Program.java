@@ -1,7 +1,7 @@
-package ro.ase.cts.program;
+package cts.program;
 
-import ro.ase.cts.clase.Sticker;
-import ro.ase.cts.clase.StickerPrototip;
+import cts.clase.Sticker;
+import cts.clase.StickerPrototip;
 
 public class Program {
     public static void main(String[] args) {

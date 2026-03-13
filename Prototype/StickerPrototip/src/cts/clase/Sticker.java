@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package cts.clase;
 
 public class Sticker implements StickerPrototip {
     private float latime;
