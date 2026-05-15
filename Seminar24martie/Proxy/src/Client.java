@@ -7,16 +7,16 @@ public class Client {
         this.varsta=varsta;
     }
 
-    @Override
-    public String toString() {
-        return "Client [nume=" + nume + ", varsta=" + varsta + "]";
-    }
-
     public String getNume() {
         return nume;
     }
 
     public int getVarsta() {
         return varsta;
+    }
+
+    @Override
+    public String toString() {
+        return "Client [nume=" + nume + ", varsta=" + varsta + "]";
     }
 }
